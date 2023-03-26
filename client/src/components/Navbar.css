@@ -12,13 +12,21 @@
     padding-top: 32px
 }
 .nav-container{
-    gap: 7.5rem;
+    gap: 5.2rem;
     /* justify-content: space-between; */
     size: 20px;
-    color: blue;
+    color: #00f7ffc9;
     /* width: fit-content; */
     /* background: rgb(44 47 50 / var(--tw-bg-opacity)); */
     width: fit-content;
 border-radius: 100px;
 padding-left: 7px
+}
+
+.w-x-h-x{
+    width: 40px;
+    /* height: ; */
+}
+.gap-x{
+    gap: 5rem;
 }

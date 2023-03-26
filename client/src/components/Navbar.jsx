@@ -19,7 +19,7 @@ const Navbar = () => {
     <div className={`w-[88px] h-[48px] rounded-[10px] ${isActive && isActive === name && 'bg-[#2c2f32]'} flex justify-center items-center ${!disabled && 'cursor-pointer'} ${styles}`} onClick={handleClick}>
       {!isActive ? (
         
-        <img src={imgUrl} alt="fund_logo" className="w-1/2 h-1/2" />
+        <img src={imgUrl} alt="fund_logo" className="w-x-h-x" />
       ) : (
         <div className='flex'>
 
@@ -61,7 +61,7 @@ const Navbar = () => {
     <div className="flex md:flex-row left-container flex-col-reverse justify-between mb-[35px] gap-6">
      
 
-      <div className="sm:flex  hidden flex-row justify-end gap-4">
+      <div className="sm:flex  hidden flex-row justify-end gap-x">
         <CustomButton 
           btnType="button"
           title={address ? 'Create a campaign' : 'Connect'}
@@ -130,7 +130,7 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-        <Icon styles="bg-[#1c1c24] shadow-secondary" imgUrl={sun} />
+        {/* <Icon styles="bg-[#1c1c24] shadow-secondary" imgUrl={sun} /> */}
     </div>
     </div>
     </>
